@@ -1,0 +1,7 @@
+{
+  "github_queries": [
+    "topic:rag stars:>50 archived:false",
+    "topic:workflow stars:>50 archived:false",
+    "topic:eval stars:>20 archived:false"
+  ]
+}

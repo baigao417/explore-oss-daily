@@ -1,0 +1,35 @@
+{
+  "synthetic": true,
+  "projects": [
+    {
+      "full_name": "fictional-lab/retrieval-kit",
+      "url": "https://example.invalid/retrieval-kit",
+      "description": "Fictional RAG framework with an eval CLI, reproducible examples, and a server API for workflow tests.",
+      "language": "Python",
+      "topics": ["rag", "eval", "framework", "cli", "workflow"],
+      "stars": 1600,
+      "forks": 80,
+      "open_issues": 12,
+      "raw": {"archived": false, "license": "MIT"}
+    },
+    {
+      "full_name": "fictional-lab/task-runtime",
+      "url": "https://example.invalid/task-runtime",
+      "description": "Fictional automation runtime with a workflow API and SDK.",
+      "language": "TypeScript",
+      "topics": ["workflow", "automation", "runtime", "sdk"],
+      "stars": 250,
+      "forks": 15,
+      "open_issues": 7
+    },
+    {
+      "full_name": "fictional-lab/tutorial-list",
+      "url": "https://example.invalid/tutorial-list",
+      "description": "Fictional tutorial list for ranking comparisons.",
+      "language": "Markdown",
+      "topics": ["tutorial", "awesome", "list"],
+      "stars": 90,
+      "raw": {"archived": true}
+    }
+  ]
+}

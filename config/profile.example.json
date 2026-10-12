@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "terms": ["rag", "eval", "workflow"],
+  "binding_hints": {
+    "rag": "Example document retrieval",
+    "eval": "Example quality checks",
+    "workflow": "Example task orchestration"
+  },
+  "projects": [
+    {
+      "name": "Fictional document service",
+      "need": "Evaluate retrieval results with repeatable tests",
+      "terms": ["rag", "eval"]
+    },
+    {
+      "name": "Fictional task runner",
+      "need": "Make workflow failures observable and recoverable",
+      "terms": ["workflow", "runtime"]
+    }
+  ]
+}

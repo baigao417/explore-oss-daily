@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "explore-oss-daily"
+version = "0.1.0"
+description = "One daily open-source recommendation with explainable ranking and configurable context"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [{name = "baigao417"}]
+dependencies = []
+
+[project.scripts]
+explore = "explore.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
